@@ -1,11 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import "./App.css";
+import DetailPage from "./pages/Detail";
+import HomePage from "./pages/Home";
+import WritePage from "./pages/Write";
+import ApplyPage from "./pages/Apply";
+
+
 
 function App() {
   return (
-    <div className="App" onClick={() => alert('알림창 입니다.')}> 이 버튼을 누르면 알림창이 뜨게됩니다.<br></br>▼<br></br>
-      <button>Button</button>
-    </div>
+    <Router>
+      <main>
+        <div className="App">
+          <Routes>
+            <Route path="/details/:detailId" element={<DetailPage />} />
+            <Route path="/write" element={<WritePage />} />
+            <Route path="/apply" element={<ApplyPage />} />
+            <Route exact path="/" element={<HomePage />} />
+          </Routes>
+        </div>
+      </main>
+    </Router>
   );
 }
 
