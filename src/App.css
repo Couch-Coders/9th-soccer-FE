@@ -35,22 +35,25 @@
 }
 
 .Writebtn2 {
-  
-  margin: auto;
-  right: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 24px;
-  text-align: center;
-  color: #000000;
-  background: #7DE64C;
-  width: 100px;
-  height: 30px;
-  border-radius: 5px;
+  margin-top: 10px;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  color: white;
   border: solid 0px;
-  display: block;
+  background: #8CEA5F;
+}
+
+.Applybtn {
+  padding-top: 100px;
+  
+  width: 197px;
+  height: 35px;
+  
+  background: #52FF00;
+  border-radius: 14px;
+
 }
 .Mypagebtn {
   position: absolute;
@@ -100,6 +103,7 @@
   margin-top: 5px;
   position: absolute;
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 200px;
   left: 0px;
@@ -109,26 +113,51 @@
 
 }
 
+
 .Soccerball {
  margin-left: 10px;
 }
 
 .SelectBarText {
-  margin-left: 250px;
+  padding-right: 1150px;
   font-size: 25px;
   font-weight: bold;
   margin-top: 10px;
   
 }
+.SelectBox {
+  display: flex;
+  height: 30px;
+  margin: auto;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 20px;
+ 
+ }
+
+.SearchBar {
+  margin-bottom: 100px;
+  padding-left: 100px;
+
+}
+.SearchBar_Css {
+  box-sizing: border-box;
+  width: 941.44px;
+  height: 37.43px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
 
 .Gopage {
   padding-top: 290px;
-  float: left;
-  padding-left: 210px;
+  
+ 
 }
 
+
 .Mojip_padding {
-  padding-right: 900px;
+ padding-right: 1350px;
 }
 
 
@@ -143,34 +172,61 @@
   background-color: #289B00;
 }
 
-.Right {
-  float: right;
+.FloatLeft {
+  float: left;
 }
 
 .Recruit_head {
   text-align: left;
-  margin-left: 200px;
-  margin-top: 40px; 
-  width: 266px;
-  height: 228px;
+  margin-left: 250px;
+  margin-top: 50px; 
+  width: 300px;
+  height: 280px;
   background: #299E00;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.Search {
-  margin-top: 100px;
+.Recruit_title {
+  font-size: 18px;
+  color: white;
+  padding-left: 8px;
+
 }
-select.box {
-  width: 80px;
-  height: 30px;
-  box-sizing: border-box;
-  margin-left: 5px;
-  padding: 5px 0 5px 10px;
-  border-radius: 4px;
-  border: 1px solid #d9d6d6;
-  color: #383838;
-  background-color: #ffffff;
-  font-family: 'Montserrat', 'Pretendard', sans-serif;
+
+.Recruit_id {
+  font-size: 13px;
+  color: yellow;
+  padding-left: 10px;
 }
+
+.Recruit_place {
+  font-size: 13px;
+  color: white;
+  margin: auto;
+  padding-left: 40px;
+}
+
+.Recruit_date {
+  font-size: 13px;
+  color: white;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.Recruit_member {
+  font-size: 13px;
+  color: white;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.Recruit_position {
+  font-size: 13px;
+  color: white;
+  margin-left: 20px;
+}
+
+
 
 option {
   font-size: 16px;
@@ -181,11 +237,6 @@ option {
   background-color: #ffffff;
 }
 
-.SelectBox {
-  margin-top: 60px;
- 
-  
-}
 
 .outer-div {
   width : auto;
@@ -244,8 +295,16 @@ option {
   color: #FFFFFF;
 }
 
-.JUMP {
-  padding-top: 130px;
+.Submitapply {
+  width: 197px;
+  height: 35px;
+  margin-top: 30px;
+  background: #52FF00;
+  border-radius: 14px;
+  border: solid 0px;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-top: 200px;
 }
 
 .Wtitle {
@@ -283,12 +342,6 @@ option {
   border: 1px solid #7DE64C;
   border-radius: 10px;
 }
-
-.JUMP{
-  padding: top;
-}
-
-
 
 .App-logo {
   height: 40vmin;
