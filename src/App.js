@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/details/:detailId" element={<DetailPage />} />
             <Route path="/write" element={<WritePage />} />
-            <Route path="/apply" element={<ApplyPage />} />
+            <Route path="/apply/:id" element={<ApplyPage />} />
             <Route exact path="/" element={<HomePage />} />
           </Routes>
         </div>

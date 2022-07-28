@@ -149,6 +149,19 @@
   text-align: left;
 }
 
+.Search {
+  
+  width: 80px;
+  height: 37px;
+  background-color: #ccc;
+  border: solid 1px;
+  margin-left: 3px;
+  border-radius: 7px;
+
+ 
+
+}
+
 .Gopage {
   padding-top: 290px;
   
@@ -227,7 +240,6 @@
 }
 
 
-
 option {
   font-size: 16px;
 }
@@ -253,11 +265,20 @@ option {
 
 .inner2-div {
   
-  padding-top: 670px;
-  width: 1010px;
+  padding-top: 20px;
+ 
+}
+
+.Imgcss {
+  padding-top: 150px;
+  padding-left: 100px;
+  width: 400px;
   height: 300px;
- 
- 
+}
+
+.inner3-div{
+  margin-top: 250px;
+  background-color: #AEFF87;
 }
 
 
@@ -267,6 +288,90 @@ option {
   padding-left: 25px;
   color: #289B00;
 }
+
+.Apply_title {
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  margin-top: 10px;
+
+}
+
+.Apply_id {
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.Apply_date {
+  font-size: 14px;
+  
+  clear: both;
+  float: left;
+  margin-top: 13px;
+  
+}
+
+.Apply_place {
+  font-size: 14px;
+ 
+  float: left;
+  margin-top: 13px;
+  padding-left: 100px;
+}
+
+.Apply_member {
+  font-size: 14px;
+  
+  clear: both;
+  float: left;
+  margin-top: 10px;
+}
+
+.Apply_position {
+  font-size: 14px;
+ 
+  float: left;
+  margin-top: 13px;
+  padding-left: 78px;
+}
+
+.Apply_h2 {
+  padding-top: 15px;
+}
+
+.PositionBox {
+  margin-top: 100px;
+}
+
+.PMF {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  
+}
+.PST {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+  
+}
+.PCB {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+}
+.PGK {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+}
+
 
 .Wdetail {
   font-size: 17px;
@@ -304,7 +409,8 @@ option {
   border: solid 0px;
   font-size: 14px;
   color: #FFFFFF;
-  margin-top: 200px;
+  margin-top: 150px;
+  
 }
 
 .Wtitle {
@@ -341,6 +447,10 @@ option {
   background: #FFFFFF;
   border: 1px solid #7DE64C;
   border-radius: 10px;
+}
+
+.JUMP {
+  padding-top: 100px;
 }
 
 .App-logo {

@@ -12,12 +12,13 @@ const HomePage = () => {
 
   const [ searchKeyword, setSearchKeyword ] = useState("");
 
-  const [ se, se1] = useState("");
 
   // 페이지 진입시 데이터 불러오기
   useEffect(() => {
     ApiService.fetchDummy().then(setData);
   }, []);
+
+ 
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -101,15 +102,17 @@ const HomePage = () => {
                 type="text"
                 value={searchKeyword}
                 onChange={handleChangeSearchKeyword}
-              />
+
                 
-              <button 
+              />
+                <button 
                 className="Search" 
                 name="search"
                 type="submit"
-              >
+                >
                 검색
               </button>
+              
             </form>
           
           
